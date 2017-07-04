@@ -1,0 +1,17 @@
+
+Request URL:http://trunk0-console.dev.zerostack.net/v2/clusters/753c00c7-9c50-4959-a03b-853f208ad45b/projects/60c6a5f0c5194e7188e2d52176f406ce/isoconverter
+Request Method:POST
+Status Code:202 Accepted
+Remote Address:10.20.24.207:80
+Referrer Policy:no-referrer-when-downgrade
+
+
+{"name":"ISO_img1","min_disk":30,"min_ram":4096,"net_id":"61f45bda-957f-43a5-8686-47dcc8937a1e","zs_pool_type":"highcap_type","properties":[{"key":"os","value":"Windows Server 2012"},{"key":"version","value":"0.1"},{"key":"description","value":null},{"key":"source","value":"iso"},{"key":"application-stack-1","value":"Cassandra DB Image"},{"key":"application-stack-2","value":"Ruby/Rails Server Image"},{"key":"application-stack-3","value":"Node.js Server Image"}],"visibility":"private","tags":[],"fetch_info":{"plugin_name":"curl","curl":{"url":"http://infra01.sjc1.zerostack.net/nas/images/ISO/en_windows_server_2012_r2_vl_with_update_x64_dvd_6052766.iso","timeout":600}}}
+
+
+
+{"migration_id":"e0806b86-940a-4fac-bf22-4f9f44191932","state":"VM-Migration-Request-Accepted","overall_status":"in_progress","cloud_provider_id":"iso-converter","installer_vm":"","image_id":"","error":null,"created_at_ms":1499144290798,"updated_at_ms":1499144290798,"progress_percent":0,"request_blob":"{\"name\":\"ISO_img1\",\"min_disk\":30,\"min_ram\":4096,\"properties\":[{\"key\":\"os\",\"value\":\"Windows Server 2012\"},{\"key\":\"version\",\"value\":\"0.1\"},{\"key\":\"description\",\"value\":null},{\"key\":\"source\",\"value\":\"iso\"},{\"key\":\"application-stack-1\",\"value\":\"Cassandra DB Image\"},{\"key\":\"application-stack-2\",\"value\":\"Ruby/Rails Server Image\"},{\"key\":\"application-stack-3\",\"value\":\"Node.js Server Image\"}],\"tags\":[],\"protected\":null,\"visibility\":\"private\",\"fetch_info\":{\"plugin_name\":\"curl\",\"curl\":{\"url\":\"http://infra01.sjc1.zerostack.net/nas/images/ISO/en_windows_server_2012_r2_vl_with_update_x64_dvd_6052766.iso\",\"timeout\":600,\"ssl_verify\":null},\"file\":null},\"net_id\":\"61f45bda-957f-43a5-8686-47dcc8937a1e\",\"zs_pool_type\":\"highcap_type\"}","extra_info":"{\"fetch_volume\":\"\",\"fetch_task\":\"\",\"progress\":0,\"boot_volume\":\"\",\"temp_volume\":\"\",\"vm_name\":\"\",\"vm_id\":\"\",\"tools_image\":\"\",\"image_id\":\"\",\"last_good_state\":\"iso-request-accepted\",\"checkpoints\":0}"}
+
+
+
+
